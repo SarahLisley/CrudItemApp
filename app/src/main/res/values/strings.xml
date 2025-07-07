@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crud Item App</string>
+    <string name="add_item">Adicionar Item</string>
+    <string name="edit_item">Editar Item</string>
+    <string name="item_name">Nome do Item</string>
+    <string name="item_description">Descrição</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="no_items">Nenhum item encontrado</string>
+    <string name="loading">Carregando...</string>
+    <string name="error_loading">Erro ao carregar dados</string>
+    <string name="error_saving">Erro ao salvar dados</string>
+    <string name="error_deleting">Erro ao excluir dados</string>
+    <string name="confirm_delete">Confirmar Exclusão</string>
+    <string name="delete_confirmation">Tem certeza que deseja excluir este item?</string>
+    <string name="try_again">Tentar Novamente</string>
+    <string name="total_items">Total de itens cadastrados</string>
+    <string name="item_created">Item criado em:</string>
+    <string name="add_first_item">Toque no botão + para adicionar seu primeiro item</string>
+</resources> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules>
+    <!-- Regras de exemplo para o Realtime Database -->
+    <!-- Para desenvolvimento, você pode usar regras de teste -->
+    <!-- Para produção, configure regras de segurança adequadas -->
+    
+    <rule path="/items">
+        <read>true</read>
+        <write>true</write>
+    </rule>
+    
+    <!-- Regras mais seguras para produção:
+    <rule path="/items">
+        <read>auth != null</read>
+        <write>auth != null</write>
+    </rule>
+    -->
+</rules> 
