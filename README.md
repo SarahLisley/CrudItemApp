@@ -59,51 +59,6 @@ app/
 └── ...
 ```
 
-## Configuração do Firebase
-
-1. Crie um projeto no [Firebase Console](https://console.firebase.google.com/)
-2. Adicione um aplicativo Android com o package name `com.example.cruditemapp`
-3. Baixe o arquivo `google-services.json` e substitua o arquivo existente em `app/google-services.json`
-4. Ative o **Realtime Database** no console do Firebase
-5. Configure as regras de segurança do Realtime Database:
-   - Para desenvolvimento, use regras de teste
-   - Para produção, configure regras de segurança adequadas
-
-### Regras do Realtime Database
-
-Para desenvolvimento, você pode usar estas regras no console do Firebase:
-
-```json
-{
-  "rules": {
-    "items": {
-      ".read": true,
-      ".write": true
-    }
-  }
-}
-```
-
-Para produção, use regras mais seguras:
-
-```json
-{
-  "rules": {
-    "items": {
-      ".read": "auth != null",
-      ".write": "auth != null"
-    }
-  }
-}
-```
-
-## Como Executar
-
-1. Abra o projeto no Android Studio
-2. Sincronize o projeto com os arquivos Gradle
-3. Configure o arquivo `google-services.json` com suas credenciais do Firebase
-4. Execute o aplicativo em um emulador ou dispositivo físico
-
 ## Funcionalidades do App
 
 ### Tela de Lista
@@ -145,11 +100,3 @@ O projeto segue o padrão MVVM (Model-View-ViewModel):
 - `com.google.firebase.database` - Firebase Realtime Database
 - `kotlinx.coroutines.android` - Coroutines para Android
 
-## Próximos Passos
-
-- [ ] Adicionar autenticação de usuários
-- [ ] Implementar busca e filtros
-- [ ] Adicionar categorias aos itens
-- [ ] Implementar sincronização offline avançada
-- [ ] Adicionar testes unitários e de UI
-- [ ] Implementar notificações push
