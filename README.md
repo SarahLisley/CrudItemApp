@@ -152,4 +152,4 @@ O projeto segue o padrão MVVM (Model-View-ViewModel):
 - [ ] Adicionar categorias aos itens
 - [ ] Implementar sincronização offline avançada
 - [ ] Adicionar testes unitários e de UI
-- [ ] Implementar notificações push 
+- [ ] Implementar notificações push
